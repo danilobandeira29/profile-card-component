@@ -14,9 +14,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: hsl(185, 75%, 39%);
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 1.8rem;
+  background: hsl(185, 75%, 39%) url("./images/bg-pattern-bottom.svg") no-repeat 50vw 50vh;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -50%;
+  left: 0;
+  background-image: url("./images/bg-pattern-top.svg");
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 
 strong {
