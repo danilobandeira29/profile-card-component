@@ -12,27 +12,19 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: hsl(185, 75%, 39%);
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 1.8rem;
 }
 
 strong {
-  color: hsl(227, 10%, 46%)
+  color: hsl(229, 23%, 23%)
 }
 
 p, span {
-  color: hsl(0, 0%, 59%);
-}
-
-.container {
-  margin: auto;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  color: hsl(227, 10%, 46%);
 }
 
 .container .card-content {
@@ -73,6 +65,10 @@ p, span {
   margin-bottom: 1rem;
 }
 
+.container .card-content .user-profile p {
+  font-size: 1.5rem;
+}
+
 .container .card-content .user-status {
   width: 100%;
   display: flex;
@@ -93,6 +89,6 @@ p, span {
 }
 
 .container .card-content .user-status span {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-top: 0.5rem;
 }
