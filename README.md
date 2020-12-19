@@ -23,7 +23,6 @@ Webpage feita utilizando html, css e js. Tem como objetivo praticar sobre respon
 ## 💻 Tecnologias
 - HTML
 - CSS(flexbox)
-- Javascript
 
 ## 👇 Clonar o Projeto
 Abra um terminal e execute essas linhas:
